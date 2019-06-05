@@ -21,7 +21,7 @@ public class TotalArray {
                 arrayC[i] = arrayA[i];
         }
         for (int i =0; i <arrayB.length; i++) {
-            arrayC[i+arrayB.length+1] = arrayB[i];
+            arrayC[i+arrayA.length] = arrayB[i];
         }
         System.out.println(" mang A:");
         for (int i = 0; i < 5; i++) {
